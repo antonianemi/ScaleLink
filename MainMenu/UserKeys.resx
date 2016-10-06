@@ -1,0 +1,1275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 213</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>701, 295</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="ProductShortcut_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 256</value>
+  </data>
+  <data name="ProductShortcut_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_1.Name" xml:space="preserve">
+    <value>ProductShortcut_1</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_1.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="ProductShortcut_2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 256</value>
+  </data>
+  <data name="ProductShortcut_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_2.Name" xml:space="preserve">
+    <value>ProductShortcut_2</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_2.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="ProductShortcut_3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 256</value>
+  </data>
+  <data name="ProductShortcut_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_3.Name" xml:space="preserve">
+    <value>ProductShortcut_3</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_3.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <metadata name="baseDeDatosDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>129, 17</value>
+  </metadata>
+  <metadata name="productosTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>295, 17</value>
+  </metadata>
+  <metadata name="prod_detalleTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>475, 17</value>
+  </metadata>
+  <data name="listView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 4</value>
+  </data>
+  <data name="listView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>849, 203</value>
+  </data>
+  <data name="listView1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;listView1.Name" xml:space="preserve">
+    <value>listView1</value>
+  </data>
+  <data name="&gt;&gt;listView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listView1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;listView1.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="ProductShortcut_4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 256</value>
+  </data>
+  <data name="ProductShortcut_4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_4.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_4.Name" xml:space="preserve">
+    <value>ProductShortcut_4</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_4.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="ProductShortcut_5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 256</value>
+  </data>
+  <data name="ProductShortcut_5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_5.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_5.Name" xml:space="preserve">
+    <value>ProductShortcut_5</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_5.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="ProductShortcut_6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>359, 256</value>
+  </data>
+  <data name="ProductShortcut_6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_6.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_6.Name" xml:space="preserve">
+    <value>ProductShortcut_6</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_6.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="ProductShortcut_7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 256</value>
+  </data>
+  <data name="ProductShortcut_7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_7.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_7.Name" xml:space="preserve">
+    <value>ProductShortcut_7</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_7.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="ProductShortcut_8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>454, 256</value>
+  </data>
+  <data name="ProductShortcut_8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_8.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_8.Name" xml:space="preserve">
+    <value>ProductShortcut_8</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_8.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="ProductShortcut_9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 302</value>
+  </data>
+  <data name="ProductShortcut_9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_9.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_9.Name" xml:space="preserve">
+    <value>ProductShortcut_9</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_9.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="ProductShortcut_10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 302</value>
+  </data>
+  <data name="ProductShortcut_10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_10.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_10.Name" xml:space="preserve">
+    <value>ProductShortcut_10</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_10.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="ProductShortcut_11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 302</value>
+  </data>
+  <data name="ProductShortcut_11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_11.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_11.Name" xml:space="preserve">
+    <value>ProductShortcut_11</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_11.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="ProductShortcut_12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 302</value>
+  </data>
+  <data name="ProductShortcut_12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_12.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_12.Name" xml:space="preserve">
+    <value>ProductShortcut_12</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_12.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="ProductShortcut_13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 302</value>
+  </data>
+  <data name="ProductShortcut_13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_13.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_13.Name" xml:space="preserve">
+    <value>ProductShortcut_13</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_13.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="ProductShortcut_14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>359, 302</value>
+  </data>
+  <data name="ProductShortcut_14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_14.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_14.Name" xml:space="preserve">
+    <value>ProductShortcut_14</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_14.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_14.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="ProductShortcut_15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 302</value>
+  </data>
+  <data name="ProductShortcut_15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_15.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_15.Name" xml:space="preserve">
+    <value>ProductShortcut_15</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_15.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_15.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="ProductShortcut_16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>454, 302</value>
+  </data>
+  <data name="ProductShortcut_16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_16.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_16.Name" xml:space="preserve">
+    <value>ProductShortcut_16</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_16.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_16.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="ProductShortcut_17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 350</value>
+  </data>
+  <data name="ProductShortcut_17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_17.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_17.Name" xml:space="preserve">
+    <value>ProductShortcut_17</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_17.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_17.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="ProductShortcut_18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 350</value>
+  </data>
+  <data name="ProductShortcut_18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_18.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_18.Name" xml:space="preserve">
+    <value>ProductShortcut_18</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_18.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_18.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="ProductShortcut_19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 350</value>
+  </data>
+  <data name="ProductShortcut_19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_19.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_19.Name" xml:space="preserve">
+    <value>ProductShortcut_19</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_19.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_19.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="ProductShortcut_20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 350</value>
+  </data>
+  <data name="ProductShortcut_20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_20.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_20.Name" xml:space="preserve">
+    <value>ProductShortcut_20</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_20.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_20.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="ProductShortcut_21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 350</value>
+  </data>
+  <data name="ProductShortcut_21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_21.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_21.Name" xml:space="preserve">
+    <value>ProductShortcut_21</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_21.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_21.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="ProductShortcut_22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>359, 350</value>
+  </data>
+  <data name="ProductShortcut_22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_22.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_22.Name" xml:space="preserve">
+    <value>ProductShortcut_22</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_22.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_22.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="ProductShortcut_23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 350</value>
+  </data>
+  <data name="ProductShortcut_23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_23.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_23.Name" xml:space="preserve">
+    <value>ProductShortcut_23</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_23.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_23.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="ProductShortcut_24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>454, 350</value>
+  </data>
+  <data name="ProductShortcut_24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_24.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_24.Name" xml:space="preserve">
+    <value>ProductShortcut_24</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_24.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_24.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="ProductShortcut_25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 398</value>
+  </data>
+  <data name="ProductShortcut_25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_25.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_25.Name" xml:space="preserve">
+    <value>ProductShortcut_25</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_25.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_25.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="ProductShortcut_26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 398</value>
+  </data>
+  <data name="ProductShortcut_26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_26.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_26.Name" xml:space="preserve">
+    <value>ProductShortcut_26</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_26.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_26.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="ProductShortcut_27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 398</value>
+  </data>
+  <data name="ProductShortcut_27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_27.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_27.Name" xml:space="preserve">
+    <value>ProductShortcut_27</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_27.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_27.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="ProductShortcut_28.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 398</value>
+  </data>
+  <data name="ProductShortcut_28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_28.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_28.Name" xml:space="preserve">
+    <value>ProductShortcut_28</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_28.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_28.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="ProductShortcut_29.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 398</value>
+  </data>
+  <data name="ProductShortcut_29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_29.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_29.Name" xml:space="preserve">
+    <value>ProductShortcut_29</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_29.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_29.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ProductShortcut_30.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>359, 398</value>
+  </data>
+  <data name="ProductShortcut_30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_30.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_30.Name" xml:space="preserve">
+    <value>ProductShortcut_30</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_30.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_30.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="ProductShortcut_31.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 398</value>
+  </data>
+  <data name="ProductShortcut_31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_31.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_31.Name" xml:space="preserve">
+    <value>ProductShortcut_31</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_31.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_31.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ProductShortcut_32.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>454, 398</value>
+  </data>
+  <data name="ProductShortcut_32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_32.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_32.Name" xml:space="preserve">
+    <value>ProductShortcut_32</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_32.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_32.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ProductShortcut_33.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 444</value>
+  </data>
+  <data name="ProductShortcut_33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_33.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_33.Name" xml:space="preserve">
+    <value>ProductShortcut_33</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_33.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_33.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ProductShortcut_34.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 444</value>
+  </data>
+  <data name="ProductShortcut_34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_34.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_34.Name" xml:space="preserve">
+    <value>ProductShortcut_34</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_34.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_34.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ProductShortcut_35.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductShortcut_35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 444</value>
+  </data>
+  <data name="ProductShortcut_35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="ProductShortcut_35.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_35.Name" xml:space="preserve">
+    <value>ProductShortcut_35</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_35.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_35.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductShortcut_35.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btn_ClearAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>882, 34</value>
+  </data>
+  <data name="btn_ClearAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 64</value>
+  </data>
+  <data name="btn_ClearAll.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="btn_ClearAll.Text" xml:space="preserve">
+    <value>Clear All</value>
+  </data>
+  <data name="&gt;&gt;btn_ClearAll.Name" xml:space="preserve">
+    <value>btn_ClearAll</value>
+  </data>
+  <data name="&gt;&gt;btn_ClearAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_ClearAll.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_ClearAll.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="toolStrip31.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="StripGuardar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="StripGuardar.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="StripEnviar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 36</value>
+  </data>
+  <data name="StripEnviar.Text" xml:space="preserve">
+    <value>Send Information</value>
+  </data>
+  <data name="StripCerrar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 36</value>
+  </data>
+  <data name="StripCerrar.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="toolStripLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="toolStripLabel1.Text" xml:space="preserve">
+    <value>Last Update:</value>
+  </data>
+  <data name="toolStripLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="toolStripLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 15</value>
+  </data>
+  <data name="toolStripLabel3.Text" xml:space="preserve">
+    <value>GROUP NAME</value>
+  </data>
+  <data name="toolStrip31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="toolStrip31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
+  </data>
+  <data name="toolStrip31.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;toolStrip31.Name" xml:space="preserve">
+    <value>toolStrip31</value>
+  </data>
+  <data name="&gt;&gt;toolStrip31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_indicator_visual_1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_indicator_visual_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 524</value>
+  </data>
+  <data name="lbl_indicator_visual_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="lbl_indicator_visual_1.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;lbl_indicator_visual_1.Name" xml:space="preserve">
+    <value>lbl_indicator_visual_1</value>
+  </data>
+  <data name="&gt;&gt;lbl_indicator_visual_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_indicator_visual_1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_indicator_visual_1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbl_indicator_visual_2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_indicator_visual_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 523</value>
+  </data>
+  <data name="lbl_indicator_visual_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 28</value>
+  </data>
+  <data name="lbl_indicator_visual_2.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;lbl_indicator_visual_2.Name" xml:space="preserve">
+    <value>lbl_indicator_visual_2</value>
+  </data>
+  <data name="&gt;&gt;lbl_indicator_visual_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_indicator_visual_2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_indicator_visual_2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbl_indicator_1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_indicator_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 538</value>
+  </data>
+  <data name="lbl_indicator_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="lbl_indicator_1.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;lbl_indicator_1.Name" xml:space="preserve">
+    <value>lbl_indicator_1</value>
+  </data>
+  <data name="&gt;&gt;lbl_indicator_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_indicator_1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_indicator_1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_indicator_2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_indicator_2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_indicator_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 538</value>
+  </data>
+  <data name="lbl_indicator_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="lbl_indicator_2.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;lbl_indicator_2.Name" xml:space="preserve">
+    <value>lbl_indicator_2</value>
+  </data>
+  <data name="&gt;&gt;lbl_indicator_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_indicator_2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_indicator_2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>56</value>
+  </metadata>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1029, 778</value>
+  </data>
+  <data name="&gt;&gt;baseDeDatosDataSet.Name" xml:space="preserve">
+    <value>baseDeDatosDataSet</value>
+  </data>
+  <data name="&gt;&gt;baseDeDatosDataSet.Type" xml:space="preserve">
+    <value>MainMenu.BaseDeDatosDataSet, BaseDeDatosDataSet2.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;productosTableAdapter.Name" xml:space="preserve">
+    <value>productosTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;productosTableAdapter.Type" xml:space="preserve">
+    <value>MainMenu.BaseDeDatosDataSetTableAdapters.ProductosTableAdapter, BaseDeDatosDataSet2.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;prod_detalleTableAdapter1.Name" xml:space="preserve">
+    <value>prod_detalleTableAdapter1</value>
+  </data>
+  <data name="&gt;&gt;prod_detalleTableAdapter1.Type" xml:space="preserve">
+    <value>MainMenu.BaseDeDatosDataSetTableAdapters.Prod_detalleTableAdapter, BaseDeDatosDataSet2.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;StripGuardar.Name" xml:space="preserve">
+    <value>StripGuardar</value>
+  </data>
+  <data name="&gt;&gt;StripGuardar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StripEnviar.Name" xml:space="preserve">
+    <value>StripEnviar</value>
+  </data>
+  <data name="&gt;&gt;StripEnviar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StripCerrar.Name" xml:space="preserve">
+    <value>StripCerrar</value>
+  </data>
+  <data name="&gt;&gt;StripCerrar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
+    <value>toolStripSeparator3</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripLabel1.Name" xml:space="preserve">
+    <value>toolStripLabel1</value>
+  </data>
+  <data name="&gt;&gt;toolStripLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripLabel2.Name" xml:space="preserve">
+    <value>toolStripLabel2</value>
+  </data>
+  <data name="&gt;&gt;toolStripLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripLabel3.Name" xml:space="preserve">
+    <value>toolStripLabel3</value>
+  </data>
+  <data name="&gt;&gt;toolStripLabel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>UserKeys</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

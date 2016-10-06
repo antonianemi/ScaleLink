@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbxRetardo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 73</value>
+  </data>
+  <data name="chkNutriente.Text" xml:space="preserve">
+    <value>Print Nutritional Information</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 45</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 13</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Delay Printing :</value>
+  </data>
+  <data name="ScrollBarRetardo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 41</value>
+  </data>
+  <data name="btnSaveFormato.Text" xml:space="preserve">
+    <value>Save
+Format</value>
+  </data>
+  <data name="btnDelFormato.Text" xml:space="preserve">
+    <value>Delete
+Format</value>
+  </data>
+  <data name="btnAddFormato.Text" xml:space="preserve">
+    <value>New
+Format</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>581, 22</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Header</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 22</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 13</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Additional Info</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Data Fields</value>
+  </data>
+  <data name="label84.Text" xml:space="preserve">
+    <value>Gap</value>
+  </data>
+  <data name="label83.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="label83.Text" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="label85.Text" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="label46.Text" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="label47.Text" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="label48.Text" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="Frame1.Text" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 44</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 13</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Paper Contrast :</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 17</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Label Contrast :</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 45</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 13</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Department :</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 71</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Shift Part :</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 19</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Prefix :</value>
+  </data>
+  <data name="rBxformato3_Standar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 17</value>
+  </data>
+  <data name="rBxformato3_Standar.Text" xml:space="preserve">
+    <value>Format w/ Logo</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 28</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 17</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Select Customized Format</value>
+  </data>
+  <data name="label19.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="rBxformato_Personalizado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 17</value>
+  </data>
+  <data name="rBxformato_Personalizado.Text" xml:space="preserve">
+    <value>Customized</value>
+  </data>
+  <data name="rBxformato2_Standar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 17</value>
+  </data>
+  <data name="rBxformato2_Standar.Text" xml:space="preserve">
+    <value>Format 2</value>
+  </data>
+  <data name="rBxformato1_Standar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 17</value>
+  </data>
+  <data name="rBxformato1_Standar.Text" xml:space="preserve">
+    <value>Format 1</value>
+  </data>
+  <data name="rBxTipoetiqueta.Text" xml:space="preserve">
+    <value>Label with Gap</value>
+  </data>
+  <data name="rBxTipopapel.Text" xml:space="preserve">
+    <value>Paper</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Paper Type and Format</value>
+  </data>
+  <data name="rBxNoCodeTicket.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 17</value>
+  </data>
+  <data name="rBxNoCodeTicket.Text" xml:space="preserve">
+    <value>No Code</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 114</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 13</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Customized :</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 55</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 13</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Barcode Format</value>
+  </data>
+  <data name="groupBox16.Text" xml:space="preserve">
+    <value>Barcode for Ticket</value>
+  </data>
+  <data name="rBxNoCodePrd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 17</value>
+  </data>
+  <data name="rBxNoCodePrd.Text" xml:space="preserve">
+    <value>No Code</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 115</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 13</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Customized :</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 57</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 13</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Barcode Format</value>
+  </data>
+  <data name="groupBox17.Text" xml:space="preserve">
+    <value>Barcode for Product</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1066, 611</value>
+  </data>
+  <data name="StripEditar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 49</value>
+  </data>
+  <data name="StripEditar.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="StripGuardar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 49</value>
+  </data>
+  <data name="StripGuardar.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="StripBorrar.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="StripEnviar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 49</value>
+  </data>
+  <data name="StripEnviar.Text" xml:space="preserve">
+    <value>Send Information</value>
+  </data>
+  <data name="StripCerrar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 49</value>
+  </data>
+  <data name="StripCerrar.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="toolStripLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 49</value>
+  </data>
+  <data name="toolStripLabel1.Text" xml:space="preserve">
+    <value>Last Update:</value>
+  </data>
+  <data name="toolStripLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 49</value>
+  </data>
+  <data name="toolStripLabel3.Text" xml:space="preserve">
+    <value>GROUP NAME</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1072, 617</value>
+  </data>
+</root>

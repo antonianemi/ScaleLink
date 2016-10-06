@@ -1,0 +1,420 @@
+1	La contrase§a es incorrecta	Wrong password	
+2	Los datos fueron depurados	The data was purged	
+3	El archivo no tiene el formato correcto	The file doesn't have the correct format	
+4	Error al importar los datos	Error while importing data	
+5	Hay productos en la base de datos	There is products in the database	
+6	®Desea eliminar la informacion ?	Do you want to remove the information?	
+7	Hay ofertas en la base de datos	There are offer entries in the database	
+8	La informacion sera remplazada	The information will be replaced	
+9	Hay Informacion adicional en la base de datos	There is additional information entries in the database	
+10	Importados	Imported	
+11	Remplazados	Replaced	
+12	Actualizados	Updated	
+13	Exportados	Exported	
+14	Cancelado	Canceled	
+15	Hay oferta asignada al menos a una bascula. ®Desea continuar?	"There are offers assigned at least to one scale, do you want to proceed?"	
+16	"Existe informaci¢n, desea sobreescribir?"	"There is information already, do you want to rewrite it?"	
+17	La direccion esta en uso	The address is in use	
+18	La red no funciona	The network is not working	
+19	El socket no esta conectado	The socket is disconnected	
+20	Tiempo de conexi¢n agotado	Connection timeout	
+21	Conexi¢n rechazada	Refused connection	
+22	No tiene grupo	It doesn't have a group assigned	
+23	Los datos asignados en la b†scula se perder†n	The data assigned in the scale will be lost	
+24	No hay b†scula o grupo seleccionado	No scale or group selected	
+25	El precio no puede ser mayor que 99999	The price can not be greater than 99999	
+26	El precio no puede ser mayor que 9999.9	The price can not be greater than 9999.9	
+27	El precio no puede ser mayor que 999.99	The price can not be greater than 999.99	
+28	Los datos han sido enviados	The data has been sent	
+29	No hay archivo seleccionado	There is no file selected	
+30	"La b†scula ser† borrada, ®Est† seguro?"	"This scale will be deleted, are you sure?"	
+31	La(s) b†scula(s) tiene productos asignados. No es posible borrarla	The scale has assigned. Products. You cannot delete it.	
+32	No hay productos dados de alta	There are not discharged products	
+33	No tiene numero de serie	It doesn't have a serial number	
+34	No se encontro la bascula	The scale was not found	
+35	Escriba el dato correcto	Enter the correct information	
+36	El numero no puede ser mayor de 255	The number can not be greater than 255	
+37	Dato Invalido	Invalid data	
+38	Car†cter Invalido	Invalid character	
+39	ATENCI‡N	ATTENTION	
+40	ADVERTENCIA	WARNING	
+41	INFORMACION	INFORMATION	
+42	≠≠ALERTA!!	ALERT!!!	
+43	Bascula Creada	The Scale has been Created	
+44	Verifique direccion IP	Check IP address	
+45	B†scula Actualizada	The Scale has been Updated	
+46	La bascula no tiene la misma unidad de medida del sistema	The scale does not have the same unit of measurement from the system	
+47	No hay carpetas seleccionada	No selected folders	
+48	Configuracion guardada	The configuration was saved	
+49	No existe dato	No data	
+50	El campo ya esta asignado	The field is already assigned	
+51	Car†cter Invalido	Invalid Character	
+52	Longitud no es valida	The length is not valid	
+53	La secuencia de car†cteres no es valida	The character string is not valid	
+54	El Departamento no puede ser mayor de 2 caracteres (d)	The Department index cannot be greater than 2 characters (d)	
+55	El prefijo no puede ser mayor de 2 caracteres (p)	The prefix number cannot be more than 2 characters (p)	
+56	El Codigo no puede ser mayor de 6 caracteres ( c)	The code number cannot be greater than 6 characters (c)	
+57	El Vendedor no puede ser mayor de 2 caracteres (a)	The Agent Name cannot be greater than 2 characters (a)	
+58	El Peso no puede ser mayor de 5 caracteres (w)	The weight cannot be greater than 5 characters (w)	
+59	El grupo debe tener un nombre	The group must have a name	
+60	El grupo ha sido creado	The group has been created	
+61	Grupo actualizado	The group was updated	
+62	No hay grupo dados de alta	There are not discharged groups	
+63	"No se puede crear el grupo, El nombre ya existe"	"Unable to create the group, the name already exists"	
+64	"Esta info adicional sera borrado, ®Estas seguro?"	"This additional info. will be deleted, are you sure?"	
+65	La Info adicional esta asignado a una bascula	The additional info. is assigned to a scale	
+66	La info. adicional esta asignado a un producto	The additional info. is assigned to a product	
+67	No hay info. adicional dados de alta	No additional info. was discharged	
+68	Esta oferta sera borrada. ®Estas seguro?	This offer will be deleted. Are you sure?	
+69	La Oferta esta asignada a una bascula	The Offer is assigned to a scale	
+70	La Oferta esta asignada a un producto	The Offer is assigned to a product	
+71	La Oferta esta asignado. ®Deseas borrarlos?	The Offer is assigned. Want to delete them?	
+72	No hay ofertas dadas de alta	No discharged offers	
+73	La fecha inicial no puede ser menor a la actual	The start date cannot be less than the current date	
+74	La fecha inicial no puede ser mayor que la fecha final	The start date cannot be greater than the end date	
+75	La fecha final no puede ser menor que la actual	The end date cannot be less than the current date	
+76	La fecha final no puede ser menor que la inicial	The end date cannot be less than the initial date	
+77	Requiere nombre 	It requires Name	
+78	"Este producto sera borrado, ®Estas seguro?"	"This product will be erased, Are you sure?"	
+79	No hay productos dados de alta	There are no products discharged	
+80	El codigo ya existe	The code number already exists	
+81	Requiere descripcion	It requires a description	
+82	El numero de PLU ya existe en el catalogo	The PLU number already exists in the catalog	
+83	El codigo no puede ser cero o nulo	The code number cannot be zero or null	
+84	El PLU no puede ser cero o nulo	The PLU number cannot be zero or null	
+85	La descripcion no puede estar vacia	The description cannot be empty	
+86	El precio no puede  ser cero o nulo	The price cannot be zero or null	
+87	"Este mensaje sera borrado, ®Estas seguro?"	"This message will be erased, Are you sure?"	
+88	El Mensaje esta asignado a una bascula	The Message is assigned to a scale	
+89	El Mensaje esta asignado a un producto	The Message is assigned to a product	
+90	®Estas seguro de borrar el mensaje?	Are you sure you want to delete the message?	
+91	No hay mensajes dados de alta	No messages were discharged	
+92	El usuario no puede estar vacio	The user cannot be empty	
+93	"Este vendedor sera borrado, ®Estas seguro?"	"This Agent will be deleted, are you sure?"	
+94	No hay vendedores dados de alta	No Agents are discharged	
+95	No hay puerto COM detectados en este equipo	There are no COM Ports detected on this computer.	
+96	Favor instale un puerto COM y reinicie la aplicaci¢n.	Please install a COM Port and restart this app. No COM Ports Found	
+97	!-Espacio	!-Space	
+98	C-Codigo de Barra	C-Barcode	
+99	c-Consecutivo	c-Consecutive	
+100	E-Encabezado	E-Headers	
+101	F-Fecha	F-Date	
+102	f-Texto de Fecha	f-TextDate	
+103	G-Caducidad	G-Expire	
+104	g-Texto de Caducidad	g-TextExpire	
+105	H-Hora	H-Time	
+106	I-Info. Adicional	I-Additional Info	
+107	m-Mensaje Adicional	m-Additional mssg	
+108	N-Descripcion PLU	N-PLU Description	
+109	P-Precio	P-Price	
+110	p-Texto precio	p-Text Price	
+111	r-Texto Vendedor	r-Text Agent	
+112	s-Gran Total	s-Grant Total	
+113	T-Total	T-Total	
+114	t-Texto Total	t-Text Total	
+115	V-Vendedor	V-Agent	
+116	v-Numero de Vendedor	Agent Number	
+117	W-Peso	W-Weight	
+118	w-Texto de Peso	w-Text Weight	
+119	Catalago de Basculas	Scale Catalog	
+120	Catalogo de Info. Adicional	Additional info. Catalog	
+121	Catalogo de Mensajes	Message Catalog	
+122	Catalogo de Ofertas	Offer Catalog	
+123	Catalogo de Productos	Product Catalog	
+124	Catalogo de Vendedores	Agent Catalog	
+125	Registro de Ventas	Sales Record	
+126	Analisis de venta por Departamento	Sales Analysis by deparment	
+127	Analisis de venta por Bascula	Sales Analysis by Scale	
+128	Analisis de venta por Producto	Sales Analysis by Product	
+129	Analisis de venta por Vendedor	Sales Analysis by Agents	
+130	Reporte de Venta por Fecha	Sales Report by Date	
+131	Reporte de Venta por Departamento	Sales Report by department	
+132	Reporte de venta por Bascula	Scale Sales Report	
+133	Reporte de venta por Corte de Ventas	Sales Report by Due Balance	
+134	Reporte de venta por Vendedor	Agents Sales Report	
+135	Reporte de venta por Producto	Product Sales Report	
+136	EAN13(pccccccwwwwwv) Peso	EAN13 (pccccccwwwwwv) Weight	
+137	UPC12(xpcccccwwwwwv) Peso	UPC12 (xpcccccwwwwwv) Weight	
+138	EAN13(pxaannttttttv) Vendedor	EAN13 (pxaannttttttv) Agents	
+139	EAN13(pxddnnttttttv) Depto.	EAN13 (pxddnnttttttv) Department	
+140	UPC12 (xpaannttttttv) Vendedor	UPC12 (xpaannttttttv) Agents	
+141	UPC12 (xpddnnttttttv) Depto.	UPC12 (xpddnnttttttv) Department	
+142	Personalizado	Customized	
+143	Caducidad	Expiration	
+144	Carpeta del Archivo	File Folder	
+145	Codigo	Code	
+146	Descripcion	Description	
+147	Descuento	Discount	
+148	Impuesto	Tax	
+149	Info. Adicional	Additional Info	
+150	Informacion	Information	
+151	Inicio	Initiation	
+152	Mensaje Activo	Active message	
+153	Ventas	Sales	
+154	Fecha	Date	
+155	Corte	Due Balence	
+156	Folio	Folio	
+157	Meta Activa	Active Target	
+158	Meta Ventas	Sales Target	
+159	Modificado	Modified	
+160	Mutiplo	Mutiplo	
+161	No. Ventas	No. Sales	
+162	No.PLU	No.PLU	
+163	Nombre	Name	
+164	No. Serie	Serial number	
+165	Ofertas	Offers	
+166	Precio	Price	
+167	Productos	Products	
+168	Mensaje	Message	
+169	T. Precio	Price Type	
+170	T. Producto	Product type	
+171	Tabla Nutricional	Table Nutrition	
+172	Termino	Finish	
+173	Tipo	Type	
+174	Titulo	Title	
+175	Vendedores	Agents	
+176	Pendiente	Pending	
+177	Direccion IP	IP Address	
+178	Mascara de  Subred	Subnet Mask	
+179	Puerta de enlace	Gateway	
+180	no es valido	invalid	
+181	no son validas	are not valid	
+182	La(s) IP	The IP	
+183	No se puede guardar la bascula	Unable to save the scale	
+184	El nombre	The Name	
+185	La direccion IP	The IP address	
+186	El numero de serie	The serial number	
+187	ya existe	already exists	
+188	El numero de serie esta vacio	The serial number is empty	
+189	®Desea salir del sistema?	Do you want to exit the system?	
+190	®Desea continuar?	Do you want to continue?	
+191	Cambio de precio 	Price Change	
+192	Iniciando proceso	Starting process	
+193	Proceso terminado	Process finished	
+194	La bascula 	The scale	
+195	con IP 	with IP	
+196	no responde	not responding	
+197	Actualizando precio?	Updating price?	
+198	Enviando cambio de precio a la bascula	Sending price changes to the scale	
+199	Enviando informacion a la bascula	Sending information to the scale	
+200	Solicitando ventas y detalles de la bascula	Soliciting sales and details of the scale	
+201	No puede estar vacio	It cannot be empty	
+202	No se encontro informacion	No information was found	
+203	No puede ser menor que la inicial	It cannot be lower than the initial	
+204	No se envio datos	The data was not sent	
+205	Hay Vendedores en la Base de Datos	There are Agents in the Database	
+206	Hay Mensajes en la Base de Datos	There are Messages in the Database	
+207	"Los datos seran borrados, ®Desea continuar?"	"The data will be erased, do you want to continue?"	
+208	Depurar datos	Erase data	
+209	Hay productos asignados a una bascula. ®Desea borrarlos?	There are product assigned to the scale. Do you want to proceed?	
+210	Hay mensajes asignados a una bascula. ®Desea borrarlos?	There are message assigned to a scale. Do you want to proceed?	
+211	Hay carpetas asignadas a una bascula. ®Desea borrarlos?	There are folders assigned to a scale. Do you want to proceed?	
+212	Hay info. adicional asignada a una bascula. ®Desea borrarlos?	There are aditional info. assigned to a scale. Do you want to proceed?	
+213	Grupo	group	
+214	Bascula	Scale	
+215	Cantidad	Quantity	
+216	Peso	Weight	
+217	Subtotal	Subtotal	
+218	Prod. Varios	Misc. Products	
+219	Piezas	Pieces	
+220	Descuento e Impuesto	Discount and Tax	
+221	Devolucion	Return	
+222	Gran Total	Grand Total	
+223	No. Grupo	Group No.	
+224	No. Bascula	Scale No.	
+225	No. Vendedor	Agent No.	
+226	No. Producto	Product No.	
+227	Capacidad	Capacity	
+228	Fecha Inicial	Initial Date	
+229	Fecha Final	End Date	
+230	Div. Minima	Minimum Div	
+231	El usuario es incorrecto	incorrect user	
+232	"Los productos ser†n desasignados de la carpeta, ®Desea continuar?"	The products will be deallocated from the folder you want to continue?	
+233	Existe Productos asignados a la carpeta. ®Est† seguro de borrar la carpeta?	The folder has products assigned to it. Do you want to erase the folder?	
+234	La carpeta tiene productos asignados. ®Desea continuar?	The folder has products assigned to it. Do you want to continue?	
+235	®Esta seguro de borrar la carpeta?	Are you sure that you want to delete the folder?	
+236	Verifique la conexi¢n	Check your connections	
+237	Requiere numero de encabezado	The header number is required	
+238	Requiere n£mero de Info. Adicional	The Additional Info is required	
+239	"El grupo ser† borrado, ®Est† seguro?"	"The group will be deleted, Do you want to continue?"	
+240	"El grupo tiene b†sculas asignadas, no es posible borrarlo"	"The group has assigned scales, it is not possible to delete it"	
+241	Informacion Guardada	Information Saved	
+242	"El vendedor tiene ventas, ®Desea borrarlo?"	"The Agent has sales, Do you want to proceed?"	
+243	Ninguno	None	
+244	I-Izquierdo	I-Left	
+245	C-Centro	C-Center	
+246	D-Derecho	D-Right	
+247	Enviando Detalle Carpetas a la bascula	Sending Folder details to the scale	
+248	Enviando Detalle Producto a la bascula	Sending Product details to the scale	
+249	Enviando Productos a la bascula	Sending Products to the scale	
+250	Enviando Carpetas a la bascula	Sending Folders to the scale	
+251	Enviando Formatos a la bascula	Sending Formats to the scale	
+252	Enviando Im†genes a la b†scula	Sending Images to scale	
+253	Configuracion General 	General settings	
+254	Enviando Vendedores a la bascula	Sending Agents to the scale	
+255	Enviando Mensajes a la bascula	Sending messages to the scale	
+256	Enviando Info. Adicional a la bascula	Sending Additional Info. to the scale	
+257	Enviando Ofertas a la bascula	Sending Offers to the scale	
+258	Enviando Texto y Encabezados?	Sending Text and Headings?	
+259	Registros Asociados	Associated records	
+260	Carpetas	Folders	
+261	La siguiente sincronizacion es a las :	The next synchronization is at:	
+262	Envio Automatico desactivado	Automatic Delivery off	
+263	Preparando Bascula	Preparing Scale	
+264	La Info. Adicional ya existe	The Additional Info already exists	
+265	Solicitando Informacion a la bascula	Requesting information from the scale	
+266	Leyendo Productos	Reading Products	
+267	Leyendo Carpetas	Reading Folders	
+268	Leyendo Vendedores	Reading Sellers	
+269	Leyendo Mensajes	Reading Posts	
+270	Leyendo Info. Adicional	Reading Additional Info	
+271	Leyendo Ofertas	Reading Offers	
+272	Leyendo Configuracion General	Reading General Settings	
+273	Leyendo Formatos	Reading Formats	
+274	Leyendo Texto	Reading Text	
+275	Envio del archivo de imagen	Sending image file	
+276	Error de envio de imagen	Error sending image	
+277	El nombre ya existe	The Name already exists	
+278	No puede asignar mas de 500 productos por carpeta	You cannot assign more than 500 items by each folder	
+279	No puede asignar mas de 500 carpetas por carpetas	You cannot assign more than 500 folders by each folders	
+280	Sin archivo de imagen	Without image file	
+281	Datos Enviados	Sent files	
+282	Datos No enviados	Unsent files	
+283	Datos Borrados	Erased files	
+284	No pueden haber mas de 10 formatos	Cannot be more than 10 formats	
+285	No pueden haber mas de 500 vendedores	Cannot be more than 500 agents	
+286	No pueden haber mas de 500 ofertas	Cannot be more than 500 offers	
+287	No pueden haber mas de 500 mensajes	Cannot be more than 500 messages	
+288	No pueden haber mas de 500 info. Adicional	Cannot be more than 500 info. additional	
+289	No pueden haber mas de 10000 productos	Cannot be more than 10000 products	
+290	Peso Kg	Weigth Lb	
+291	Precio $/ Kg	Price $/Lb	
+292	Total $	Total $	
+293	Depurando bascula	Purging Scale	
+294	No tiene permiso ingrese otra contrase§a	"You have no access, please type another password"	
+295	No hay precios que actualizar	No price update needed	
+296	ha fallado	failed 	
+297	IMAGEN	IMAGES	
+298	La app se encuentra en ejecuci¢n	The app is running	
+299	La conexi¢n con la b†scula Ip	The connection to the scale IP	
+300	ha sido Exitosa.	has been successful.	
+301	La nueva contrase§a y la confirmaci¢n no coinciden	The new password and the confirmation do not match	
+302	Vend.	Agent.	
+303	Gracias por su compra	Thank you for your purchase	
+304	Articulos	Articles	
+305	Devolucion	Return	
+306	Descuento$	Discount $	
+307	Efectivo$	Cash $	
+308	Cambio$	Change $	
+309	Empacado	packed	
+310	Vender para	sell	
+311	Tara	tare	
+312	Cantidad	amount	
+313	Precio$/Pz	Price $ / pcs	
+314	PesoNeto/Cant	Net weight / Cant	
+315	$/kg$/pzs	$ / kg $ / pcs	
+316	MI NEGOCIO	MY BUSINESS	
+317	MI DIRECCION	MY ADDRESS	
+318	CALIDAD EN NUESTROS PRODUCTOS	QUALITY IN OUR PRODUCTS	
+319	SOMOS SU MEJOR OPCION	WE ARE YOUR BEST CHOICE	
+320	VUELVA PRONTO	COME BACK SOON	
+321	GRACIAS POR SU COMPRA	THANKS FOR YOUR PURCHASE	
+322	LOS MEJORES PRECIOS	THE BEST PRICES	
+324	No hay datos seleccionados	No data is selected	
+325	No coincide el numero de serie	The serial number does not match	
+326	Importando productos desde archivo?	Importing product from file?	
+327	Actualizando base de datos?	Updating data base?	
+328	Enviando imagen de carpeta	Sending folder image	
+329	El archivo no contiene datos	The file doesn't have data.	
+330	Importando vendedores desde archivo?	Importing agents from file?	
+331	Importando publicidad desde archivo?	Importing publicities from file?	
+332	Importando ofertas desde archivo?	Importing offers from file?	
+333	Importando Info Adicional desde archivo?	Importing additional info from file?	
+334	Importando precios desde archivo?	Importing prices from file?	
+335	El c¢digo no existe	The code number does not exist	
+336	No hay datos en el rango especificado	No data in the specified range	
+337	No hay datos en el rango especificado	No data in the specified range	
+338	No hay dato en el valor especificado	There is no data in the specified value	
+339	Hay vendedores asignados a basculas. ®Desea borrarlos?	There are agents assigned to scale. Do you want to proceed?	
+340	"No se puede actualizar el grupo, el nombre ya existe"	"Unable to save the group, the name already exists"	
+341	"El grupo tiene productos asignados, no es posible borrarlo."	"The group has products added, it is not possible delete it."	
+342	"Los cambios realizados se perderan, ®Desea continuar?"	"The changes will be lost, Do you want  to continue?"	
+343	La b†scula debe tener nombre	The scale must have a name	
+344	El producto se ha guardado correctamente	The product has been successfully saved	
+345	La info. Adicional se ha guardado correctamente	The Info. Aditional has been successfully saved	
+346	La oferta se ha guardado correctamente 	The offer has been successfully saved	
+347	El vendedor se ha guardado correctamente 	The agent has been successfully saved	
+348	Agregando productos a carpeta	Adding products to folder	
+349	Quitando productos de carpeta	Removing product from folder	
+350	EL nombre de la imagen no puede iniciar con '.'	The name of an image cannot start with '.'	
+351	Conectando con Bascula	Connecting to Scale	
+352	Enviando asociaci¢n de im†genes a b†scula	Sending images to scale association	
+353	Borrando productos de b†scula	Removing product from scale	
+354	Borrando detalle producto de b†scula	Removing product detail from scale	
+355	Borrando vendedor de la bascula	Removing agent from scale	
+356	La publicidad se ha guardado correctamente 	The publicity has been successfully saved	
+357	Leyendo productos desde b†scula 	Reading products from scale 	
+358	Leyendo vendedores desde b†scula 	Reading agents from scale 	
+359	Leyendo publicidad desde b†scula 	Reading publicity from scale 	
+360	Leyendo ofertas desde b†scula 	Reading offers from scale 	
+361	Leyendo carpetas desde b†scula 	Reading folders from scale 	
+362	Requiere un tama§o de anchura	Required width size	
+363	Requiere un tama§o de altura	Required high size	
+364	Requiere un tama§o de separacion	Required separation size	
+365	Requiere un dise§o de formato personalizado	Required customize format design	
+366	No hay datos disponibles	No data available	
+367	No hay precios que actualizar en la b†scula	No price update needed	
+368	Fueron actualizado(s)	Were updated	
+369	precios de la b†scula	scale prices	
+370	Debe tener un nombre de usuario	It must have a user name	
+371	"Este usuario ser† borrado, ®Desea continuar?"	"This user will be deleted, Do yo want continue?"	
+372	No hay usuarios dados de alta	There system has no users	
+373	El usuario 'admin' no puede ser borrado	The user  'admin' cannot be deleted	
+374	Iniciando comunicaci¢n con b†scula	Starting comunication with scale	
+375	Ya existe codigo de vendedor	The agent code already exists	
+376	Departamento	Department	
+377	Los Datos fueron respaldados	Tha Database was backed up	
+378	El valor final del producto no puede ser mayor que 999.99 (Precio + Impuesto)	The final product value can not be greater than 999.99 (price + tax)	
+379	Precio final fuera de rango	Final price out of range	
+380	Error al procesar la linea	Error while processing line	
+381	Excepcion	Exception	
+382	No existe producto	The product doesn't exist	
+383	No existen productos en el rango seleccionado	There are no products in the selected range	
+384	Se han actualizado en la base de datos	They have been updated in the database	
+385	No puede agregar mas niveles	You can not add more levels	
+386	Codigo/ID	Code / ID	
+387	No.PLU/ID_Padre	PLU/ID_Parent	
+388	Ruta/Tipo Prod	Path/Type Prod.	
+389	Posicion	Order	
+390	Estableciendo conexi¢n con b†scula	Connecting to scale	
+391	La Contrase§a fue actualizada	Updated Password	
+392	El Valor Inicial no puede ser mayor que el final	The initial value can not be greater than the final value	
+393	El monto (%) no puede ser nulo	The amount (%) can not be null	
+394	El monto (%) debe ser mayor que 0	The amount (%) must be greater than 0	
+395	El valor Inicial no puede ser nulo	The initial value can not be null	
+396	La app se encuentra en ejecuci¢n	The app is running	
+397	Administrador	Administrator	
+398	Usuario	User	
+399	Crear Carpetas	Create Folders	
+400	Editar Carpetas	Edit Folders	
+401	Borrar Carpetas	Delete Folders	
+402	Tama§o	Size	
+403	Eliminar	Delete	
+404	Multiplo	Multiplier	
+405	Formato Personalizado	Customized Format	
+406	Configuracion de Fecha y Hora	Date and Time Setting	
+407	Versi¢n	Version	
+408	El valor  'Encabezado' debe ser mayor que 0	The value 'Header' must be greater than 0	
+409	El valor  ' Ancho' debe ser mayor que 0	The value 'Width' must be greater than 0	
+410	El valor  ' Largo' debe ser mayor que 0	The value 'Large' must be greater than 0	
+411	Seleccione una opci¢n de 'C¢digo de Barra X Producto'	Select a option from 'Barcode X Product'	
+412	Seleccione una opci¢n de 'C¢digo de Barra X Ticket'	Select a option from 'Barcode X Ticket'	
+413	Seleccione una opci¢n de 'Tipo de Papel y Formato'	Select a option from 'Paper type and Format'	
+414	C¢digo de barra X Producto personalizado no tiene datos validos	Barcode X Product custom has no valid data	
+415	C¢digo de barra X Ticket personalizado no tiene datos validos	Barcode X Ticket custom has no valid data	
+416	Error de comunicaci¢n	Comunication Error	
+417	®Desea continuar con la siguiente Bascula?	Do you want to continue with the next scale?	
+418	Basculas actualizadas:	Scales updated: 	
+419	de	of	
+420	Basulas Importadas: 	Imported Scales:	
+			

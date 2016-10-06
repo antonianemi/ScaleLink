@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnExam12.Text" xml:space="preserve">
+    <value>Examine</value>
+  </data>
+  <data name="gbxLogoPrint.Text" xml:space="preserve">
+    <value>Printer Logo</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>sec</value>
+  </data>
+  <data name="gbxAdsTime.Text" xml:space="preserve">
+    <value>Advertisement Time</value>
+  </data>
+  <data name="btnExam11.Text" xml:space="preserve">
+    <value>Examine</value>
+  </data>
+  <data name="gbxScreenLogo.Text" xml:space="preserve">
+    <value>Screen Logo (Only for Scales with Two Displays)</value>
+  </data>
+  <data name="btnExam10.Text" xml:space="preserve">
+    <value>Examine</value>
+  </data>
+  <data name="btnExam9.Text" xml:space="preserve">
+    <value>Examine</value>
+  </data>
+  <data name="btnExam8.Text" xml:space="preserve">
+    <value>Examine</value>
+  </data>
+  <data name="btnExam7.Text" xml:space="preserve">
+    <value>Examine</value>
+  </data>
+  <data name="btnExam6.Text" xml:space="preserve">
+    <value>Examine</value>
+  </data>
+  <data name="gbxAdImages.Text" xml:space="preserve">
+    <value>Advertisement Images (Only for Scales with Two Displays)</value>
+  </data>
+  <data name="gbxScreenSaverTime.Text" xml:space="preserve">
+    <value>Screensaver Time</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Date Format</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Time Format</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Administrator:</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Manager:</value>
+  </data>
+  <data name="groupBox10.Text" xml:space="preserve">
+    <value>Security Password</value>
+  </data>
+  <data name="btnExam5.Text" xml:space="preserve">
+    <value>Examine</value>
+  </data>
+  <data name="btnExam4.Text" xml:space="preserve">
+    <value>Examine</value>
+  </data>
+  <data name="btnExam3.Text" xml:space="preserve">
+    <value>Examine</value>
+  </data>
+  <data name="btnExam2.Text" xml:space="preserve">
+    <value>Examine</value>
+  </data>
+  <data name="btnExam1.Text" xml:space="preserve">
+    <value>Examine</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Screensaver Images</value>
+  </data>
+  <data name="Frame5_0.Text" xml:space="preserve">
+    <value>Message for Rear Display</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chkActivaPubli.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="chkActivaPubli.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 242</value>
+  </data>
+  <data name="chkActivaPubli.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 17</value>
+  </data>
+  <data name="chkActivaPubli.Text" xml:space="preserve">
+    <value>Enable Advertisements</value>
+  </data>
+  <data name="chkautoimp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkautoimp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 149</value>
+  </data>
+  <data name="chkautoimp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 17</value>
+  </data>
+  <data name="chkautoimp.Text" xml:space="preserve">
+    <value>Autoprint</value>
+  </data>
+  <data name="chkreimpre.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkreimpre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 17</value>
+  </data>
+  <data name="chkreimpre.Text" xml:space="preserve">
+    <value>Reprint</value>
+  </data>
+  <data name="chkActivaProtect.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkActivaProtect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 211</value>
+  </data>
+  <data name="chkActivaProtect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 17</value>
+  </data>
+  <data name="chkActivaProtect.Text" xml:space="preserve">
+    <value>Enable Screensaver Images</value>
+  </data>
+  <data name="chkdevolucion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkdevolucion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 56</value>
+  </data>
+  <data name="chkdevolucion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 17</value>
+  </data>
+  <data name="chkdevolucion.Text" xml:space="preserve">
+    <value>Allow PLU Returns</value>
+  </data>
+  <data name="chkdescuento.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkdescuento.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 87</value>
+  </data>
+  <data name="chkdescuento.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 17</value>
+  </data>
+  <data name="chkdescuento.Text" xml:space="preserve">
+    <value>Allow Discounts</value>
+  </data>
+  <data name="chkblqprecio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkblqprecio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 118</value>
+  </data>
+  <data name="chkblqprecio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 17</value>
+  </data>
+  <data name="chkblqprecio.Text" xml:space="preserve">
+    <value>Lock Price</value>
+  </data>
+  <data name="chkvarios.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkvarios.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 25</value>
+  </data>
+  <data name="chkvarios.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 17</value>
+  </data>
+  <data name="chkvarios.Text" xml:space="preserve">
+    <value>Allow Non PLUs</value>
+  </data>
+  <data name="gbxOpciones.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="StripEditar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 49</value>
+  </data>
+  <data name="StripEditar.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="StripGuardar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 49</value>
+  </data>
+  <data name="StripGuardar.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="StripBorrar.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="StripEnviar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 49</value>
+  </data>
+  <data name="StripEnviar.Text" xml:space="preserve">
+    <value>Send Information</value>
+  </data>
+  <data name="StripCerrar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 49</value>
+  </data>
+  <data name="StripCerrar.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="toolStripLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 49</value>
+  </data>
+  <data name="toolStripLabel1.Text" xml:space="preserve">
+    <value>Last Update:</value>
+  </data>
+  <data name="toolStripLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 49</value>
+  </data>
+  <data name="toolStripLabel3.Text" xml:space="preserve">
+    <value>GROUP NAME</value>
+  </data>
+</root>
