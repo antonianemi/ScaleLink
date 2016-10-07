@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorreyTransfer", "SGSDKCOMcl\TorreyTransfer.csproj", "{6E6D7C8B-79BB-4F85-905D-DFAC6C267CED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainMenu", "MainMenu\MainMenu.csproj", "{4922A29C-BA38-45B6-A7D8-2752613FFF14}"
@@ -44,8 +46,8 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6E6D7C8B-79BB-4F85-905D-DFAC6C267CED}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{6E6D7C8B-79BB-4F85-905D-DFAC6C267CED}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{6E6D7C8B-79BB-4F85-905D-DFAC6C267CED}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{6E6D7C8B-79BB-4F85-905D-DFAC6C267CED}.Debug|Mixed Platforms.ActiveCfg = Debug|x64
+		{6E6D7C8B-79BB-4F85-905D-DFAC6C267CED}.Debug|Mixed Platforms.Build.0 = Debug|x64
 		{6E6D7C8B-79BB-4F85-905D-DFAC6C267CED}.Debug|Win32.ActiveCfg = Debug|x86
 		{6E6D7C8B-79BB-4F85-905D-DFAC6C267CED}.Debug|x64.ActiveCfg = Debug|x64
 		{6E6D7C8B-79BB-4F85-905D-DFAC6C267CED}.Debug|x64.Build.0 = Debug|x64
@@ -69,8 +71,8 @@ Global
 		{6E6D7C8B-79BB-4F85-905D-DFAC6C267CED}.SingleImage|x64.Build.0 = Release|x64
 		{6E6D7C8B-79BB-4F85-905D-DFAC6C267CED}.SingleImage|x86.ActiveCfg = Release|x86
 		{4922A29C-BA38-45B6-A7D8-2752613FFF14}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{4922A29C-BA38-45B6-A7D8-2752613FFF14}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{4922A29C-BA38-45B6-A7D8-2752613FFF14}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{4922A29C-BA38-45B6-A7D8-2752613FFF14}.Debug|Mixed Platforms.ActiveCfg = Debug|x64
+		{4922A29C-BA38-45B6-A7D8-2752613FFF14}.Debug|Mixed Platforms.Build.0 = Debug|x64
 		{4922A29C-BA38-45B6-A7D8-2752613FFF14}.Debug|Win32.ActiveCfg = Debug|x86
 		{4922A29C-BA38-45B6-A7D8-2752613FFF14}.Debug|x64.ActiveCfg = Debug|x64
 		{4922A29C-BA38-45B6-A7D8-2752613FFF14}.Debug|x64.Build.0 = Debug|x64
@@ -94,8 +96,8 @@ Global
 		{4922A29C-BA38-45B6-A7D8-2752613FFF14}.SingleImage|x64.Build.0 = Release|x64
 		{4922A29C-BA38-45B6-A7D8-2752613FFF14}.SingleImage|x86.ActiveCfg = Release|x86
 		{2DD3B5DC-7E9B-456F-ADA2-72B4C48146F1}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{2DD3B5DC-7E9B-456F-ADA2-72B4C48146F1}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{2DD3B5DC-7E9B-456F-ADA2-72B4C48146F1}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{2DD3B5DC-7E9B-456F-ADA2-72B4C48146F1}.Debug|Mixed Platforms.ActiveCfg = Debug|x64
+		{2DD3B5DC-7E9B-456F-ADA2-72B4C48146F1}.Debug|Mixed Platforms.Build.0 = Debug|x64
 		{2DD3B5DC-7E9B-456F-ADA2-72B4C48146F1}.Debug|Win32.ActiveCfg = Debug|x86
 		{2DD3B5DC-7E9B-456F-ADA2-72B4C48146F1}.Debug|x64.ActiveCfg = Debug|x64
 		{2DD3B5DC-7E9B-456F-ADA2-72B4C48146F1}.Debug|x64.Build.0 = Debug|x64
@@ -119,8 +121,8 @@ Global
 		{2DD3B5DC-7E9B-456F-ADA2-72B4C48146F1}.SingleImage|x64.Build.0 = Release|x64
 		{2DD3B5DC-7E9B-456F-ADA2-72B4C48146F1}.SingleImage|x86.ActiveCfg = Release|x86
 		{C28E5990-00A7-4A67-91DF-FB51D31096EF}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{C28E5990-00A7-4A67-91DF-FB51D31096EF}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{C28E5990-00A7-4A67-91DF-FB51D31096EF}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{C28E5990-00A7-4A67-91DF-FB51D31096EF}.Debug|Mixed Platforms.ActiveCfg = Debug|x64
+		{C28E5990-00A7-4A67-91DF-FB51D31096EF}.Debug|Mixed Platforms.Build.0 = Debug|x64
 		{C28E5990-00A7-4A67-91DF-FB51D31096EF}.Debug|Win32.ActiveCfg = Debug|x86
 		{C28E5990-00A7-4A67-91DF-FB51D31096EF}.Debug|x64.ActiveCfg = Debug|x64
 		{C28E5990-00A7-4A67-91DF-FB51D31096EF}.Debug|x64.Build.0 = Debug|x64
