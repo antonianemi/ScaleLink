@@ -35,7 +35,6 @@
             this.treListadoP = new System.Windows.Forms.TreeView();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
             this.tbxFind = new System.Windows.Forms.TextBox();
             this.pnldetalle = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -67,12 +66,6 @@
             this.tbxPLU = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.tbximp = new System.Windows.Forms.TextBox();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.picImagen = new System.Windows.Forms.PictureBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.btnLimpia = new System.Windows.Forms.Button();
-            this.tbxImagenAsignada = new System.Windows.Forms.TextBox();
-            this.btnImagen = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.cbxOferta = new System.Windows.Forms.ComboBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -87,16 +80,8 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.cbxInfoadicional = new System.Windows.Forms.ComboBox();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.btnImport = new System.Windows.Forms.ToolStripButton();
-            this.btnExportar = new System.Windows.Forms.ToolStripButton();
-            this.btnDepurar = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.btnNuevo = new System.Windows.Forms.ToolStripButton();
-            this.btnEditar = new System.Windows.Forms.ToolStripButton();
-            this.btnGuardar = new System.Windows.Forms.ToolStripButton();
-            this.btnBorrar = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.btnCerrar = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
             this.tbxFecha = new System.Windows.Forms.ToolStripLabel();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -111,6 +96,21 @@
             this.publicidadTableAdapter = new MainMenu.BaseDeDatosDataSetTableAdapters.PublicidadTableAdapter();
             this.ofertaTableAdapter = new MainMenu.BaseDeDatosDataSetTableAdapters.OfertaTableAdapter();
             this.ingredientesTableAdapter = new MainMenu.BaseDeDatosDataSetTableAdapters.IngredientesTableAdapter();
+            this.button1 = new System.Windows.Forms.Button();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.picImagen = new System.Windows.Forms.PictureBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.btnLimpia = new System.Windows.Forms.Button();
+            this.tbxImagenAsignada = new System.Windows.Forms.TextBox();
+            this.btnImagen = new System.Windows.Forms.Button();
+            this.btnImport = new System.Windows.Forms.ToolStripButton();
+            this.btnExportar = new System.Windows.Forms.ToolStripButton();
+            this.btnDepurar = new System.Windows.Forms.ToolStripButton();
+            this.btnNuevo = new System.Windows.Forms.ToolStripButton();
+            this.btnEditar = new System.Windows.Forms.ToolStripButton();
+            this.btnGuardar = new System.Windows.Forms.ToolStripButton();
+            this.btnBorrar = new System.Windows.Forms.ToolStripButton();
+            this.btnCerrar = new System.Windows.Forms.ToolStripButton();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
             this.splitContainer2.Panel1.SuspendLayout();
             this.splitContainer2.Panel2.SuspendLayout();
@@ -123,8 +123,6 @@
             this.grpTarMul.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.groupBox6.SuspendLayout();
-            this.groupBox5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picImagen)).BeginInit();
             this.groupBox4.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -135,6 +133,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.publicidadBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.publicidadBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picImagen)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainer2
@@ -180,15 +180,6 @@
             this.panel1.Controls.Add(this.tbxFind);
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
-            // 
-            // button1
-            // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Image = global::MainMenu.Properties.Resources.Search;
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // tbxFind
             // 
@@ -459,60 +450,6 @@
             this.tbximp.Leave += new System.EventHandler(this.tbximp_Leave);
             this.tbximp.Validated += new System.EventHandler(this.tbximp_Validated);
             // 
-            // groupBox5
-            // 
-            this.groupBox5.Controls.Add(this.picImagen);
-            this.groupBox5.Controls.Add(this.label15);
-            this.groupBox5.Controls.Add(this.btnLimpia);
-            this.groupBox5.Controls.Add(this.tbxImagenAsignada);
-            this.groupBox5.Controls.Add(this.btnImagen);
-            resources.ApplyResources(this.groupBox5, "groupBox5");
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.TabStop = false;
-            // 
-            // picImagen
-            // 
-            resources.ApplyResources(this.picImagen, "picImagen");
-            this.picImagen.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.picImagen.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.picImagen.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picImagen.Name = "picImagen";
-            this.picImagen.TabStop = false;
-            this.picImagen.Click += new System.EventHandler(this.picImagen_Click);
-            // 
-            // label15
-            // 
-            resources.ApplyResources(this.label15, "label15");
-            this.label15.ForeColor = System.Drawing.Color.Black;
-            this.label15.Name = "label15";
-            // 
-            // btnLimpia
-            // 
-            resources.ApplyResources(this.btnLimpia, "btnLimpia");
-            this.btnLimpia.BackColor = System.Drawing.Color.Teal;
-            this.btnLimpia.ForeColor = System.Drawing.Color.White;
-            this.btnLimpia.Name = "btnLimpia";
-            this.btnLimpia.UseVisualStyleBackColor = false;
-            this.btnLimpia.Click += new System.EventHandler(this.btnborrar_Click);
-            // 
-            // tbxImagenAsignada
-            // 
-            resources.ApplyResources(this.tbxImagenAsignada, "tbxImagenAsignada");
-            this.tbxImagenAsignada.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.tbxImagenAsignada.Name = "tbxImagenAsignada";
-            this.tbxImagenAsignada.Enter += new System.EventHandler(this.tbxImagenAsignada_Enter);
-            this.tbxImagenAsignada.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbxImagenAsignada_KeyDown);
-            this.tbxImagenAsignada.Leave += new System.EventHandler(this.tbxImagenAsignada_Leave);
-            // 
-            // btnImagen
-            // 
-            resources.ApplyResources(this.btnImagen, "btnImagen");
-            this.btnImagen.BackColor = System.Drawing.Color.Teal;
-            this.btnImagen.ForeColor = System.Drawing.Color.White;
-            this.btnImagen.Name = "btnImagen";
-            this.btnImagen.UseVisualStyleBackColor = false;
-            this.btnImagen.Click += new System.EventHandler(this.btnImagen_Click);
-            // 
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.cbxOferta);
@@ -652,71 +589,15 @@
             this.tbxFecha});
             this.toolStrip1.Name = "toolStrip1";
             // 
-            // btnImport
-            // 
-            this.btnImport.Image = global::MainMenu.Properties.Resources.import;
-            resources.ApplyResources(this.btnImport, "btnImport");
-            this.btnImport.Name = "btnImport";
-            this.btnImport.Click += new System.EventHandler(this.btnImport_Click);
-            // 
-            // btnExportar
-            // 
-            this.btnExportar.Image = global::MainMenu.Properties.Resources.export;
-            resources.ApplyResources(this.btnExportar, "btnExportar");
-            this.btnExportar.Name = "btnExportar";
-            this.btnExportar.Click += new System.EventHandler(this.btnExportar_Click);
-            // 
-            // btnDepurar
-            // 
-            this.btnDepurar.Image = global::MainMenu.Properties.Resources.purge;
-            resources.ApplyResources(this.btnDepurar, "btnDepurar");
-            this.btnDepurar.Name = "btnDepurar";
-            this.btnDepurar.Click += new System.EventHandler(this.btnDepurar_Click);
-            // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             // 
-            // btnNuevo
-            // 
-            this.btnNuevo.Image = global::MainMenu.Properties.Resources.nuevo;
-            resources.ApplyResources(this.btnNuevo, "btnNuevo");
-            this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
-            // 
-            // btnEditar
-            // 
-            this.btnEditar.Image = global::MainMenu.Properties.Resources.edit3;
-            resources.ApplyResources(this.btnEditar, "btnEditar");
-            this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Click += new System.EventHandler(this.btnEdit_Click);
-            // 
-            // btnGuardar
-            // 
-            this.btnGuardar.Image = global::MainMenu.Properties.Resources.save3;
-            resources.ApplyResources(this.btnGuardar, "btnGuardar");
-            this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
-            // 
-            // btnBorrar
-            // 
-            this.btnBorrar.Image = global::MainMenu.Properties.Resources.eliminar;
-            resources.ApplyResources(this.btnBorrar, "btnBorrar");
-            this.btnBorrar.Name = "btnBorrar";
-            this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click_1);
-            // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
             resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
-            // 
-            // btnCerrar
-            // 
-            this.btnCerrar.Image = global::MainMenu.Properties.Resources.cancelar;
-            resources.ApplyResources(this.btnCerrar, "btnCerrar");
-            this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // toolStripLabel1
             // 
@@ -788,6 +669,125 @@
             // 
             this.ingredientesTableAdapter.ClearBeforeFill = true;
             // 
+            // button1
+            // 
+            this.button1.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Image = global::MainMenu.Properties.Resources.Search;
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.picImagen);
+            this.groupBox5.Controls.Add(this.label15);
+            this.groupBox5.Controls.Add(this.btnLimpia);
+            this.groupBox5.Controls.Add(this.tbxImagenAsignada);
+            this.groupBox5.Controls.Add(this.btnImagen);
+            resources.ApplyResources(this.groupBox5, "groupBox5");
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.TabStop = false;
+            // 
+            // picImagen
+            // 
+            resources.ApplyResources(this.picImagen, "picImagen");
+            this.picImagen.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.picImagen.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.picImagen.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picImagen.Name = "picImagen";
+            this.picImagen.TabStop = false;
+            this.picImagen.Click += new System.EventHandler(this.picImagen_Click);
+            // 
+            // label15
+            // 
+            resources.ApplyResources(this.label15, "label15");
+            this.label15.ForeColor = System.Drawing.Color.Black;
+            this.label15.Name = "label15";
+            // 
+            // btnLimpia
+            // 
+            resources.ApplyResources(this.btnLimpia, "btnLimpia");
+            this.btnLimpia.BackColor = System.Drawing.Color.Teal;
+            this.btnLimpia.ForeColor = System.Drawing.Color.White;
+            this.btnLimpia.Name = "btnLimpia";
+            this.btnLimpia.UseVisualStyleBackColor = false;
+            this.btnLimpia.Click += new System.EventHandler(this.btnborrar_Click);
+            // 
+            // tbxImagenAsignada
+            // 
+            resources.ApplyResources(this.tbxImagenAsignada, "tbxImagenAsignada");
+            this.tbxImagenAsignada.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.tbxImagenAsignada.Name = "tbxImagenAsignada";
+            this.tbxImagenAsignada.Enter += new System.EventHandler(this.tbxImagenAsignada_Enter);
+            this.tbxImagenAsignada.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbxImagenAsignada_KeyDown);
+            this.tbxImagenAsignada.Leave += new System.EventHandler(this.tbxImagenAsignada_Leave);
+            // 
+            // btnImagen
+            // 
+            resources.ApplyResources(this.btnImagen, "btnImagen");
+            this.btnImagen.BackColor = System.Drawing.Color.Teal;
+            this.btnImagen.ForeColor = System.Drawing.Color.White;
+            this.btnImagen.Name = "btnImagen";
+            this.btnImagen.UseVisualStyleBackColor = false;
+            this.btnImagen.Click += new System.EventHandler(this.btnImagen_Click);
+            // 
+            // btnImport
+            // 
+            this.btnImport.Image = global::MainMenu.Properties.Resources.import;
+            resources.ApplyResources(this.btnImport, "btnImport");
+            this.btnImport.Name = "btnImport";
+            this.btnImport.Click += new System.EventHandler(this.btnImport_Click);
+            // 
+            // btnExportar
+            // 
+            this.btnExportar.Image = global::MainMenu.Properties.Resources.export;
+            resources.ApplyResources(this.btnExportar, "btnExportar");
+            this.btnExportar.Name = "btnExportar";
+            this.btnExportar.Click += new System.EventHandler(this.btnExportar_Click);
+            // 
+            // btnDepurar
+            // 
+            this.btnDepurar.Image = global::MainMenu.Properties.Resources.purge;
+            resources.ApplyResources(this.btnDepurar, "btnDepurar");
+            this.btnDepurar.Name = "btnDepurar";
+            this.btnDepurar.Click += new System.EventHandler(this.btnDepurar_Click);
+            // 
+            // btnNuevo
+            // 
+            this.btnNuevo.Image = global::MainMenu.Properties.Resources.nuevo;
+            resources.ApplyResources(this.btnNuevo, "btnNuevo");
+            this.btnNuevo.Name = "btnNuevo";
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
+            // 
+            // btnEditar
+            // 
+            this.btnEditar.Image = global::MainMenu.Properties.Resources.edit3;
+            resources.ApplyResources(this.btnEditar, "btnEditar");
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Click += new System.EventHandler(this.btnEdit_Click);
+            // 
+            // btnGuardar
+            // 
+            this.btnGuardar.Image = global::MainMenu.Properties.Resources.save3;
+            resources.ApplyResources(this.btnGuardar, "btnGuardar");
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
+            // 
+            // btnBorrar
+            // 
+            this.btnBorrar.Image = global::MainMenu.Properties.Resources.eliminar;
+            resources.ApplyResources(this.btnBorrar, "btnBorrar");
+            this.btnBorrar.Name = "btnBorrar";
+            this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click_1);
+            // 
+            // btnCerrar
+            // 
+            this.btnCerrar.Image = global::MainMenu.Properties.Resources.cancelar;
+            resources.ApplyResources(this.btnCerrar, "btnCerrar");
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
+            // 
             // UserProductos
             // 
             resources.ApplyResources(this, "$this");
@@ -816,9 +816,6 @@
             this.groupBox7.PerformLayout();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picImagen)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
@@ -831,6 +828,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.publicidadBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.publicidadBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picImagen)).EndInit();
             this.ResumeLayout(false);
 
         }

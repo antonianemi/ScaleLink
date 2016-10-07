@@ -43,18 +43,34 @@ namespace MainMenu
 
             if (Variable.TypeScale == Variable.TipoBascula.WLABEL) { funcionWLABEL(); }//Funcion para configurar la aplicacionpara WLABEL
 
-        }
+        }                                                
 
 
         void funcionWLABEL()
         {
             //Ocultar Potho
-            groupBox5.Enabled = false;
-            groupBox5.Visible = false;
+            //groupBox5.Enabled = false;
+            // groupBox5.Visible = false;
+            groupBox5.Text = "";
+            btnLimpia.Enabled = false;
+            btnLimpia.Visible = false;
+            btnImagen.Enabled = false;
+            btnImagen.Visible = false;
+
+            tbxImagenAsignada.Enabled = false;
+            tbxImagenAsignada.Visible = false;
+            label15.Enabled = false;
+            label15.Visible = false;
+            picImagen.Enabled = false;
+            picImagen.Visible = false;
+
+
 
             //Ocultar Mensajes
             groupBox2.Enabled = false;
             groupBox2.Visible = false;
+            groupBox5.BackgroundImage = MainMenu.Properties.Resources.PRODUCT;
+
         }
         #endregion
 

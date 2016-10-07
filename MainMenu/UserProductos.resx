@@ -143,7 +143,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABA
-        CAAAAk1TRnQBSQFMAwEBAAGEAQIBhAECARABAAEQAQAE/wEJAQAI/wFCAU0BNgEEBgABNgEEAgABKAMA
+        CAAAAk1TRnQBSQFMAwEBAAGUAQIBlAECARABAAEQAQAE/wEJAQAI/wFCAU0BNgEEBgABNgEEAgABKAMA
         AUADAAEQAwABAQEAAQgGAAEEGAABgAIAAYADAAKAAQABgAMAAYABAAGAAQACgAIAA8ABAAHAAdwBwAEA
         AfABygGmAQABMwUAATMBAAEzAQABMwEAAjMCAAMWAQADHAEAAyIBAAMpAQADVQEAA00BAANCAQADOQEA
         AYABfAH/AQACUAH/AQABkwEAAdYBAAH/AewBzAEAAcYB1gHvAQAB1gLnAQABkAGpAa0CAAH/ATMDAAFm
@@ -234,6 +234,9 @@
   </data>
   <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
     <value>157, 3</value>
@@ -367,6 +370,9 @@
   <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
     <value>Verdana, 8.25pt</value>
   </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
     <value>85, 24</value>
   </data>
@@ -427,6 +433,9 @@
   <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Verdana, 8.25pt</value>
   </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 11</value>
   </data>
@@ -459,6 +468,9 @@
   </data>
   <data name="lbTarMul.Font" type="System.Drawing.Font, System.Drawing">
     <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="lbTarMul.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="lbTarMul.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 21</value>
@@ -568,6 +580,9 @@
   <data name="label20.Font" type="System.Drawing.Font, System.Drawing">
     <value>Verdana, 7.8pt, style=Bold</value>
   </data>
+  <data name="label20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
     <value>172, 71</value>
   </data>
@@ -601,6 +616,9 @@
   <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 8.25pt, style=Bold</value>
   </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
     <value>174, 143</value>
   </data>
@@ -633,6 +651,9 @@
   </data>
   <data name="label19.Font" type="System.Drawing.Font, System.Drawing">
     <value>Verdana, 7.8pt, style=Bold</value>
+  </data>
+  <data name="label19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
     <value>349, 41</value>
@@ -694,6 +715,9 @@
   <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
     <value>Verdana, 7.8pt, style=Bold</value>
   </data>
+  <data name="label18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
     <value>173, 11</value>
   </data>
@@ -727,6 +751,9 @@
   <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
     <value>Verdana, 7.8pt, style=Bold</value>
   </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
     <value>172, 108</value>
   </data>
@@ -757,11 +784,14 @@
   <data name="rBxNopesado.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="rBxNopesado.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="rBxNopesado.Location" type="System.Drawing.Point, System.Drawing">
     <value>88, 15</value>
   </data>
   <data name="rBxNopesado.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 30</value>
+    <value>69, 30</value>
   </data>
   <data name="rBxNopesado.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -785,11 +815,14 @@ Pesable</value>
   <data name="rBxPesado.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="rBxPesado.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="rBxPesado.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 20</value>
   </data>
   <data name="rBxPesado.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 17</value>
+    <value>69, 17</value>
   </data>
   <data name="rBxPesado.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -842,6 +875,9 @@ Pesable</value>
   <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
     <value>Verdana, 8.25pt</value>
   </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 141</value>
   </data>
@@ -872,6 +908,9 @@ Pesable</value>
   <data name="rBxNoeditable.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="rBxNoeditable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="rBxNoeditable.Location" type="System.Drawing.Point, System.Drawing">
     <value>80, 18</value>
   </data>
@@ -899,6 +938,9 @@ Editable</value>
   </data>
   <data name="rBxEditable.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="rBxEditable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="rBxEditable.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 25</value>
@@ -956,6 +998,9 @@ Editable</value>
   </data>
   <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 40</value>
@@ -1016,6 +1061,9 @@ Editable</value>
   </data>
   <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
     <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="label17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 70</value>
@@ -1104,6 +1152,9 @@ Editable</value>
   <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Verdana, 8.25pt</value>
   </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 105</value>
   </data>
@@ -1188,6 +1239,9 @@ Editable</value>
   <data name="picImagen.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
+  <data name="picImagen.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="picImagen.Location" type="System.Drawing.Point, System.Drawing">
     <value>26, 21</value>
   </data>
@@ -1220,6 +1274,9 @@ Editable</value>
   </data>
   <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
     <value>Verdana, 7.8pt, style=Bold</value>
+  </data>
+  <data name="label15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
     <value>48, 279</value>
@@ -1256,6 +1313,9 @@ Editable</value>
   </data>
   <data name="btnLimpia.Font" type="System.Drawing.Font, System.Drawing">
     <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="btnLimpia.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="btnLimpia.Location" type="System.Drawing.Point, System.Drawing">
     <value>226, 323</value>
@@ -1325,6 +1385,9 @@ Editable</value>
   </data>
   <data name="btnImagen.Font" type="System.Drawing.Font, System.Drawing">
     <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="btnImagen.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="btnImagen.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 323</value>
@@ -1437,6 +1500,9 @@ Editable</value>
   <data name="label14.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="label14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
     <value>22, 130</value>
   </data>
@@ -1463,6 +1529,9 @@ Editable</value>
   </data>
   <data name="label13.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
     <value>22, 95</value>
@@ -1491,6 +1560,9 @@ Editable</value>
   <data name="label11.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
     <value>22, 60</value>
   </data>
@@ -1517,6 +1589,9 @@ Editable</value>
   </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
     <value>22, 25</value>
@@ -1732,7 +1807,7 @@ Editable</value>
     <value>4</value>
   </data>
   <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>359, 50</value>
+    <value>301, 51</value>
   </metadata>
   <data name="toolStrip1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
@@ -1969,40 +2044,43 @@ Editable</value>
     <value>0</value>
   </data>
   <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>145, 17</value>
+    <value>132, 17</value>
   </metadata>
   <metadata name="publicidadBindingSource3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 89</value>
+    <value>884, 17</value>
   </metadata>
   <metadata name="baseDeDatosDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>275, 17</value>
+    <value>250, 17</value>
   </metadata>
   <metadata name="publicidadBindingSource2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>860, 52</value>
+    <value>722, 54</value>
   </metadata>
   <metadata name="publicidadBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>681, 52</value>
+    <value>554, 51</value>
   </metadata>
   <metadata name="publicidadBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>479, 52</value>
+    <value>396, 51</value>
   </metadata>
   <metadata name="bindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
   <metadata name="productosTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>431, 17</value>
+    <value>388, 16</value>
   </metadata>
   <metadata name="publicidadTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>781, 17</value>
+    <value>706, 17</value>
   </metadata>
   <metadata name="ofertaTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>623, 17</value>
+    <value>551, 16</value>
   </metadata>
   <metadata name="ingredientesTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>155, 46</value>
+    <value>127, 46</value>
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>176</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>96, 96</value>
@@ -2025,65 +2103,17 @@ Editable</value>
   <data name="&gt;&gt;imageList1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnImport.Name" xml:space="preserve">
-    <value>btnImport</value>
-  </data>
-  <data name="&gt;&gt;btnImport.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnExportar.Name" xml:space="preserve">
-    <value>btnExportar</value>
-  </data>
-  <data name="&gt;&gt;btnExportar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnDepurar.Name" xml:space="preserve">
-    <value>btnDepurar</value>
-  </data>
-  <data name="&gt;&gt;btnDepurar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
     <value>toolStripSeparator1</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnNuevo.Name" xml:space="preserve">
-    <value>btnNuevo</value>
-  </data>
-  <data name="&gt;&gt;btnNuevo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEditar.Name" xml:space="preserve">
-    <value>btnEditar</value>
-  </data>
-  <data name="&gt;&gt;btnEditar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnGuardar.Name" xml:space="preserve">
-    <value>btnGuardar</value>
-  </data>
-  <data name="&gt;&gt;btnGuardar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnBorrar.Name" xml:space="preserve">
-    <value>btnBorrar</value>
-  </data>
-  <data name="&gt;&gt;btnBorrar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
     <value>toolStripSeparator2</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCerrar.Name" xml:space="preserve">
-    <value>btnCerrar</value>
-  </data>
-  <data name="&gt;&gt;btnCerrar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStripLabel1.Name" xml:space="preserve">
     <value>toolStripLabel1</value>
@@ -2113,7 +2143,7 @@ Editable</value>
     <value>baseDeDatosDataSet</value>
   </data>
   <data name="&gt;&gt;baseDeDatosDataSet.Type" xml:space="preserve">
-    <value>MainMenu.BaseDeDatosDataSet, BaseDeDatosDataSet2.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>MainMenu.BaseDeDatosDataSet, BaseDeDatosDataSet2.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;publicidadBindingSource2.Name" xml:space="preserve">
     <value>publicidadBindingSource2</value>
@@ -2143,25 +2173,73 @@ Editable</value>
     <value>productosTableAdapter</value>
   </data>
   <data name="&gt;&gt;productosTableAdapter.Type" xml:space="preserve">
-    <value>MainMenu.BaseDeDatosDataSetTableAdapters.ProductosTableAdapter, BaseDeDatosDataSet2.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>MainMenu.BaseDeDatosDataSetTableAdapters.ProductosTableAdapter, BaseDeDatosDataSet2.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;publicidadTableAdapter.Name" xml:space="preserve">
     <value>publicidadTableAdapter</value>
   </data>
   <data name="&gt;&gt;publicidadTableAdapter.Type" xml:space="preserve">
-    <value>MainMenu.BaseDeDatosDataSetTableAdapters.PublicidadTableAdapter, BaseDeDatosDataSet2.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>MainMenu.BaseDeDatosDataSetTableAdapters.PublicidadTableAdapter, BaseDeDatosDataSet2.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;ofertaTableAdapter.Name" xml:space="preserve">
     <value>ofertaTableAdapter</value>
   </data>
   <data name="&gt;&gt;ofertaTableAdapter.Type" xml:space="preserve">
-    <value>MainMenu.BaseDeDatosDataSetTableAdapters.OfertaTableAdapter, BaseDeDatosDataSet2.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>MainMenu.BaseDeDatosDataSetTableAdapters.OfertaTableAdapter, BaseDeDatosDataSet2.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;ingredientesTableAdapter.Name" xml:space="preserve">
     <value>ingredientesTableAdapter</value>
   </data>
   <data name="&gt;&gt;ingredientesTableAdapter.Type" xml:space="preserve">
-    <value>MainMenu.BaseDeDatosDataSetTableAdapters.IngredientesTableAdapter, BaseDeDatosDataSet2.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>MainMenu.BaseDeDatosDataSetTableAdapters.IngredientesTableAdapter, BaseDeDatosDataSet2.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnImport.Name" xml:space="preserve">
+    <value>btnImport</value>
+  </data>
+  <data name="&gt;&gt;btnImport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnExportar.Name" xml:space="preserve">
+    <value>btnExportar</value>
+  </data>
+  <data name="&gt;&gt;btnExportar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDepurar.Name" xml:space="preserve">
+    <value>btnDepurar</value>
+  </data>
+  <data name="&gt;&gt;btnDepurar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNuevo.Name" xml:space="preserve">
+    <value>btnNuevo</value>
+  </data>
+  <data name="&gt;&gt;btnNuevo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEditar.Name" xml:space="preserve">
+    <value>btnEditar</value>
+  </data>
+  <data name="&gt;&gt;btnEditar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGuardar.Name" xml:space="preserve">
+    <value>btnGuardar</value>
+  </data>
+  <data name="&gt;&gt;btnGuardar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBorrar.Name" xml:space="preserve">
+    <value>btnBorrar</value>
+  </data>
+  <data name="&gt;&gt;btnBorrar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCerrar.Name" xml:space="preserve">
+    <value>btnCerrar</value>
+  </data>
+  <data name="&gt;&gt;btnCerrar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>UserProductos</value>
