@@ -341,7 +341,7 @@ namespace MainMenu
             if (Variable.idioma == 0)
             {
                 BTN_ENTRAR.Image = MainMenu.Properties.Resources.aceptar;
-                BTN_CANCELAR.Image = MainMenu.Properties.Resources.cancelar;
+                BTN_CANCELAR.Image = MainMenu.Properties.Resources.salir;
             }
             else if (Variable.idioma == 1)
             {

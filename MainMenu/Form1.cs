@@ -476,7 +476,7 @@ namespace MainMenu
 
         public void AsignarImagenIcono()
         {
-            if (Variable.TypeScale == Variable.TipoBascula.WLABEL){toolStripMenuItem1.Image = MainMenu.Properties.Resources.ico_wlabel2;}
+            if (Variable.TypeScale == Variable.TipoBascula.WLABEL) { toolStripMenuItem1.Image = MainMenu.Properties.Resources.ico_wlabel2;}
             else if (Variable.TypeScale == Variable.TipoBascula.WLS) { toolStripMenuItem1.Image = MainMenu.Properties.Resources.ico_wlsd2; }
             else if (Variable.TypeScale == Variable.TipoBascula.WLSD) { toolStripMenuItem1.Image = MainMenu.Properties.Resources.BO_1_bc; }
         }
@@ -659,10 +659,13 @@ namespace MainMenu
             {
                 if (MdiChildren.Count() > 0)
                 { 
-                  for (int i = 0; i < MdiChildren.Count(); i++)
+                    int variable = MdiChildren.Count();
+
+                    while(MdiChildren.Count() > 0)
                     {
-                        MdiChildren[i].Close();
-                    }
+                        MdiChildren[0].Close();      //always remove the position 0
+                        MdiChildren.Count();
+                    }        
                 }
                 TipoBasculaAnterior = Variable.TypeScale;
             }

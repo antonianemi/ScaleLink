@@ -40,7 +40,7 @@ namespace MainMenu
                 else if (Variable.moneda == 2) Variable.n_decimal = 1;
                 else if (Variable.moneda == 3) Variable.n_decimal = 3;
                 Variable.F_Decimal = Variable.FOR_MONEDA[Variable.moneda];
-                Variable.idioma = 1;
+                Variable.idioma = 0;
             }
             else
             {
