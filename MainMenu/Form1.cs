@@ -660,8 +660,12 @@ namespace MainMenu
             if (TipoBasculaAnterior != Variable.TypeScale)//significa que cambio
             {
                 if (MdiChildren.Count() > 0)
-                  for (int i = 0; i <= MdiChildren.Count(); i++){MdiChildren[i].Close();}
-
+                { 
+                  for (int i = 0; i < MdiChildren.Count(); i++)
+                    {
+                        MdiChildren[i].Close();
+                    }
+                }
                 TipoBasculaAnterior = Variable.TypeScale;
             }
 

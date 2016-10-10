@@ -960,6 +960,7 @@
     <None Include="Resources\Icon\ico_wlsd2.png" />
     <Content Include="Resources\Icon\Scale.ico" />
     <None Include="Resources\PRODUCT1.jpg" />
+    <None Include="Resources\PRODUCT.jpg" />
     <Content Include="Resources\Teclado.jpg" />
     <None Include="Resources\Teclado2.jpg" />
     <None Include="Resources\Teclado3.jpg" />

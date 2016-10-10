@@ -69,7 +69,15 @@ namespace MainMenu
             //Ocultar Mensajes
             groupBox2.Enabled = false;
             groupBox2.Visible = false;
-            groupBox5.BackgroundImage = MainMenu.Properties.Resources.PRODUCT;
+            //groupBox5.BackgroundImage = MainMenu.Properties.Resources.PRODUCT;
+
+            Panel panel = new Panel();
+            panel.Size = groupBox5.Size;
+            panel.Location = groupBox5.Location;
+            panel.BackgroundImage= MainMenu.Properties.Resources.PRODUCT;
+
+            this.pnldetalle.Controls.Remove(this.groupBox5);
+            this.pnldetalle.Controls.Add(panel);
 
         }
         #endregion
@@ -1678,7 +1686,7 @@ namespace MainMenu
         #endregion
 
         #endregion
-
+        
         private void UserProductos_Load(object sender, EventArgs e)
         {
             Cursor.Current = Cursors.WaitCursor;
@@ -1702,7 +1710,6 @@ namespace MainMenu
             
             Cursor.Current = Cursors.Default;
         }
-
         private void btnDepurar_Click(object sender, EventArgs e)
         {
             UserDepurar uspurge = new UserDepurar((int)ESTADO.FileSource.fProductos);
