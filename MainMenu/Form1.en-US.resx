@@ -2122,4 +2122,7 @@
         AAAAAQAAAAEAAAADAAAABwAAcAcAAP//AAD//wAA
 </value>
   </data>
+  <data name="wizardToolStripMenuItem.Text" xml:space="preserve">
+    <value>Wizard</value>
+  </data>
 </root>

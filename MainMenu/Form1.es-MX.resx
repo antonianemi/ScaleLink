@@ -1687,4 +1687,7 @@
         AAEAAAABAAAAAQAA//8AAP//AAD//wAA
 </value>
   </data>
+  <data name="wizardToolStripMenuItem.Text" xml:space="preserve">
+    <value>Configuracion Inicial</value>
+  </data>
 </root>

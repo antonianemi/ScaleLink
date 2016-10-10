@@ -472,9 +472,7 @@ namespace MainMenu
                 this.Close();
                 this.Dispose();                
             }            
-        }
-
-
+        } 
 
         public void AsignarImagenIcono()
         {
@@ -4464,5 +4462,6 @@ namespace MainMenu
             }
         }
     }
+
 }
  
