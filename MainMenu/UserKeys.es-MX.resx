@@ -121,4 +121,22 @@
   <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
     <value>54, 57</value>
   </data>
+  <data name="StripEnviar.Text" xml:space="preserve">
+    <value>Enviar Informacion</value>
+  </data>
+  <data name="StripCerrar.Text" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="StripGuardar.Text" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="toolStripLabel1.Text" xml:space="preserve">
+    <value>Ultima Actualizacion:</value>
+  </data>
+  <data name="toolStripLabel3.Text" xml:space="preserve">
+    <value>Nombre del Grupo:</value>
+  </data>
+  <data name="btn_ClearAlll.Text" xml:space="preserve">
+    <value>Limpiar Todo</value>
+  </data>
 </root>

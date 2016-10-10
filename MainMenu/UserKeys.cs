@@ -169,6 +169,8 @@ namespace MainMenu
             prod_detalleTableAdapterAux.Connection.CreateCommand().CommandText = Conec.CadenaSelect;
             prod_detalleTableAdapterAux.Fill(baseDeDatosDataSet.Prod_detalle);
 
+            string lastDateUpdate = String.Empty;
+
             foreach(DataRow item in baseDeDatosDataSet.Prod_detalle.Rows)
             {
 
@@ -184,11 +186,12 @@ namespace MainMenu
                     p.NoPLU = item["NoPLU"].ToString();
                     p.precio = reader["precio"].ToString();
                     p.Actualizado = reader["Actualizado"].ToString();
+                    lastDateUpdate = reader["Actualizado"].ToString();
                     p.ControlAsignado = getControl(Convert.ToInt32(item["posicion"].ToString()));
                     TableRelationship.Add(p);
                 }
                 }
-
+                toolStripLabel2.Text = lastDateUpdate;
             }
             DrawlingStatusButtons();
         }

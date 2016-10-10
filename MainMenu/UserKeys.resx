@@ -1021,7 +1021,7 @@
     <value>38</value>
   </data>
   <data name="btn_ClearAll.Text" xml:space="preserve">
-    <value>Clear All</value>
+    <value>Limpiar Todo</value>
   </data>
   <data name="&gt;&gt;btn_ClearAll.Name" xml:space="preserve">
     <value>btn_ClearAll</value>
@@ -1039,31 +1039,19 @@
     <value>17, 17</value>
   </metadata>
   <data name="StripGuardar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 22</value>
-  </data>
-  <data name="StripGuardar.Text" xml:space="preserve">
-    <value>Save</value>
+    <value>36, 22</value>
   </data>
   <data name="StripEnviar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 36</value>
-  </data>
-  <data name="StripEnviar.Text" xml:space="preserve">
-    <value>Send Information</value>
+    <value>36, 22</value>
   </data>
   <data name="StripCerrar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 36</value>
-  </data>
-  <data name="StripCerrar.Text" xml:space="preserve">
-    <value>Close</value>
+    <value>36, 36</value>
   </data>
   <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 6</value>
   </data>
   <data name="toolStripLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 15</value>
-  </data>
-  <data name="toolStripLabel1.Text" xml:space="preserve">
-    <value>Last Update:</value>
+    <value>0, 0</value>
   </data>
   <data name="toolStripLabel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 0</value>
@@ -1072,10 +1060,7 @@
     <value>6, 6</value>
   </data>
   <data name="toolStripLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 15</value>
-  </data>
-  <data name="toolStripLabel3.Text" xml:space="preserve">
-    <value>GROUP NAME</value>
+    <value>0, 0</value>
   </data>
   <data name="toolStrip31.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -1204,19 +1189,19 @@
     <value>baseDeDatosDataSet</value>
   </data>
   <data name="&gt;&gt;baseDeDatosDataSet.Type" xml:space="preserve">
-    <value>MainMenu.BaseDeDatosDataSet, BaseDeDatosDataSet2.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>MainMenu.BaseDeDatosDataSet, BaseDeDatosDataSet2.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;productosTableAdapter.Name" xml:space="preserve">
     <value>productosTableAdapter</value>
   </data>
   <data name="&gt;&gt;productosTableAdapter.Type" xml:space="preserve">
-    <value>MainMenu.BaseDeDatosDataSetTableAdapters.ProductosTableAdapter, BaseDeDatosDataSet2.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>MainMenu.BaseDeDatosDataSetTableAdapters.ProductosTableAdapter, BaseDeDatosDataSet2.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;prod_detalleTableAdapter1.Name" xml:space="preserve">
     <value>prod_detalleTableAdapter1</value>
   </data>
   <data name="&gt;&gt;prod_detalleTableAdapter1.Type" xml:space="preserve">
-    <value>MainMenu.BaseDeDatosDataSetTableAdapters.Prod_detalleTableAdapter, BaseDeDatosDataSet2.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>MainMenu.BaseDeDatosDataSetTableAdapters.Prod_detalleTableAdapter, BaseDeDatosDataSet2.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;StripGuardar.Name" xml:space="preserve">
     <value>StripGuardar</value>
