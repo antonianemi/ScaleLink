@@ -531,10 +531,10 @@ namespace MainMenu
             this.grupoTableAdapter.Fill(this.baseDeDatosDataSet1.Grupo);
             // TODO: esta línea de código carga datos en la tabla 'baseDeDatosDataSet1.Bascula' Puede moverla o quitarla según sea necesario.
             this.basculaTableAdapter.Fill(this.baseDeDatosDataSet1.Bascula);
+
             if (this.treListadoB.GetNodeCount(false) > 0) this.treListadoB.SelectedNode = this.treListadoB.TopNode;
            
         }
-
         private void f1BasculasLista_Activated(object sender, EventArgs e)
         {
             Asigna_Grupo();
@@ -569,8 +569,6 @@ namespace MainMenu
                 btnNuevo.Enabled = false;
             }
         }
-
-
         private void btnNuevoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ToolStripItem men = ((ToolStripItem)sender);
@@ -597,13 +595,11 @@ namespace MainMenu
             btnBorrar.Enabled = false;
             btnGuardar.Enabled = true;
         }
-                 
         private void Cerrar_Click(object sender, EventArgs e)
         {
             this.Close();
             this.Dispose();
-        }
-
+        } 
         private void btnEditar_Click(object sender, EventArgs e)
         {
             if (treListadoB.SelectedNode.Tag.ToString() == "B")
@@ -629,7 +625,6 @@ namespace MainMenu
             btnBorrar.Enabled = false;
             btnGuardar.Enabled = true;
         }
-
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             if (this.pnldetalle.Controls["UserGrupos"] != null)
@@ -654,7 +649,6 @@ namespace MainMenu
                 else MessageBox.Show(this, Variable.SYS_MSJ[24, Variable.idioma], Variable.SYS_MSJ[24, Variable.idioma], MessageBoxButtons.OK, MessageBoxIcon.Warning); //"No hay bascula o grupo seleccionado"
             }  
         }
-
         private void btnBorrar_Click(object sender, EventArgs e)
         {
             if (treListadoB.SelectedNode.Tag.ToString() == "B")
@@ -677,7 +671,6 @@ namespace MainMenu
                 Asigna_Grupo();
             }
             Crear_Nodos();
-        }                             
-                
+        }                                              
     }
 }

@@ -64,8 +64,6 @@ namespace MainMenu
 
             return tipo;
         }
-
-
         void LoadTypeScales()
         {
             //BUSCAR LOS TIPOS DE BASCULA QUE TIENE EL SISTEMA********************************************
@@ -335,15 +333,23 @@ namespace MainMenu
             
 
         }
-        
+
         #endregion
-        
+
         private void ChooseMode_Load(object sender, EventArgs e)
         {
+            if (Variable.idioma == 0)
+            {
+                BTN_ENTRAR.Image = MainMenu.Properties.Resources.aceptar;
+                BTN_CANCELAR.Image = MainMenu.Properties.Resources.cancelar;
+            }
+            else if (Variable.idioma == 1)
+            {
+                BTN_ENTRAR.Image = MainMenu.Properties.Resources.accept;
+                BTN_CANCELAR.Image = MainMenu.Properties.Resources.exit2;
+            }
 
         }
-
-
 
 
         private void BTN_CANCELAR_Click(object sender, EventArgs e)

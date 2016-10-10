@@ -48,31 +48,31 @@ namespace MainMenu
                 }
                 else if (Variable.TypeScale == Variable.TipoBascula.WLABEL)
                 {
-                    
+                    this.BackgroundImage = MainMenu.Properties.Resources.accesoWLABEL_ESP;
                     this.btnAceptar.Image = MainMenu.Properties.Resources.aceptar;
                     this.btnSalir.Image = MainMenu.Properties.Resources.salir;
-                    this.BackgroundImage = MainMenu.Properties.Resources.accesoWLABEL_ESP;
                 }
             }
+
             else
             {
                 if (Variable.TypeScale == Variable.TipoBascula.WLS)
                 {
                     this.BackgroundImage = MainMenu.Properties.Resources.accesoeng;
-                    this.btnAceptar.Image = MainMenu.Properties.Resources.aceptar;
-                    this.btnSalir.Image = MainMenu.Properties.Resources.salir;
+                    this.btnAceptar.Image = MainMenu.Properties.Resources.accept;
+                    this.btnSalir.Image = MainMenu.Properties.Resources.exit2;
                 }
                 else if (Variable.TypeScale == Variable.TipoBascula.WLSD)
                 {
                     this.BackgroundImage = MainMenu.Properties.Resources.accesoWLSD_ENG;
-                    this.btnAceptar.Image = MainMenu.Properties.Resources.aceptar;
-                    this.btnSalir.Image = MainMenu.Properties.Resources.salir;
+                    this.btnAceptar.Image = MainMenu.Properties.Resources.accept;
+                    this.btnSalir.Image = MainMenu.Properties.Resources.exit2;
                 }
                 else if (Variable.TypeScale == Variable.TipoBascula.WLABEL)
                 {
                     this.BackgroundImage = MainMenu.Properties.Resources.accesoWLABEL_ENG;
-                    this.btnAceptar.Image = MainMenu.Properties.Resources.aceptar;
-                    this.btnSalir.Image = MainMenu.Properties.Resources.salir;
+                    this.btnAceptar.Image = MainMenu.Properties.Resources.accept;
+                    this.btnSalir.Image = MainMenu.Properties.Resources.exit2;
                 }
             }
 

@@ -432,6 +432,12 @@
     <EmbeddedResource Include="cambiopsw.resx">
       <DependentUpon>cambiopsw.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ChooseMode.en-US.resx">
+      <DependentUpon>ChooseMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseMode.es-MX.resx">
+      <DependentUpon>ChooseMode.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ChooseMode.resx">
       <DependentUpon>ChooseMode.cs</DependentUpon>
     </EmbeddedResource>
@@ -952,6 +958,7 @@
     <None Include="Resources\ChooseMode\ChooseMode_wlsd.png" />
     <None Include="Resources\fondoWizard.jpg" />
     <None Include="Resources\fondoWizard1.jpg" />
+    <None Include="Resources\CooseMode.es-MX.resx.txt" />
     <Content Include="Resources\Icon\grupo.ico" />
     <Content Include="Resources\Icon\grupo2.ico" />
     <Content Include="Resources\Icon\ico_wlabel.png" />

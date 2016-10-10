@@ -40,25 +40,27 @@ namespace MainMenu
                 else if (Variable.moneda == 2) Variable.n_decimal = 1;
                 else if (Variable.moneda == 3) Variable.n_decimal = 3;
                 Variable.F_Decimal = Variable.FOR_MONEDA[Variable.moneda];
+                Variable.idioma = 1;
             }
             else
             {
                 //Configurar idioma y formato de fecha.
                 //Configuracion de idioma para ingles
-                Variable.idioma = 0;
-                Variable.ffecha = 0;
-                //Asi estaba antes esta version de codigo.
-                //if (Thread.CurrentThread.CurrentCulture.Name == "es-MX")
-                //{
-                //    Variable.idioma = 0;
-                //    Variable.ffecha = 0;
-                //}
+                //Variable.idioma = 0;
+                //Variable.ffecha = 0;
 
-                //if (Thread.CurrentThread.CurrentCulture.Name == "en-US")
-                //{
-                //    Variable.idioma = 1;
-                //    Variable.ffecha = 1;
-                //}
+                //Asi estaba antes esta version de codigo.
+                if (Thread.CurrentThread.CurrentCulture.Name == "es-MX")
+                {
+                    Variable.idioma = 0;
+                    Variable.ffecha = 0;
+                }
+
+                if (Thread.CurrentThread.CurrentCulture.Name == "en-US")
+                {
+                    Variable.idioma = 1;
+                    Variable.ffecha = 1;
+                }
 
             }
             config.Close();

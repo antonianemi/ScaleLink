@@ -125,8 +125,8 @@
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             this.imageList1.Images.SetKeyName(0, "grupo2.ico");
             this.imageList1.Images.SetKeyName(1, "Scale.ico");
-            this.imageList1.Images.SetKeyName(2, "ico_wlabel.png");
-            this.imageList1.Images.SetKeyName(3, "ico_wlsd.png");
+            //this.imageList1.Images.SetKeyName(2, "ico_wlabel.png");
+            //this.imageList1.Images.SetKeyName(3, "ico_wlsd.png");
             // 
             // panel3
             // 
